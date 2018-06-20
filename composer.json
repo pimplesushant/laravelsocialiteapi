@@ -1,21 +1,27 @@
 {
     "name": "pimplesushant/laravelsocialiteapi",
     "description": "Social Login for Laravel API",
-    "type": "project",
+    "authors": [
+        {
+            "name": "Sushant Pimple",
+            "email": "pimplesushant@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
     "require": {
         "laravel/passport": "^6.0",
         "laravel/socialite": "^3.0"
     },
-    "minimum-stability": "dev",
-    "authors": [
-        {
-            "name": "Sushant S Pimple",
-            "email": "pimplesushant@gmail.com"
-        }
-    ],
     "autoload": {
         "psr-4": {
             "Pimplesushant\\Laravelsocialiteapi\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Pimplesushant\\Laravelsocialiteapi\\SocialServiceProvider"
+            ]
         }
     }
 }
