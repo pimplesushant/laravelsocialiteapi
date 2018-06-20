@@ -12,17 +12,5 @@
             "name": "Sushant Pimple",
             "email": "pimplesushant@gmail.com"
         }
-    ],
-    "autoload": {
-        "psr-4": {
-            "Pimplesushant\\Laravelsocialiteapi\\": "src/"
-        }
-    },
-    "extra": {
-        "laravel": {
-            "providers": [
-                "Pimplesushant\\Laravelsocialiteapi\\Providers\\SocialServiceProvider"
-            ]
-        }
-    }
+    ]
 }
