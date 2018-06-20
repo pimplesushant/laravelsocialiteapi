@@ -6,7 +6,6 @@
         "laravel/passport": "^6.0",
         "laravel/socialite": "^3.0"
     },
-    "license": "GPU",
     "minimum-stability": "dev",
     "authors": [
         {
