@@ -1,0 +1,17 @@
+{
+    "name": "pimplesushant/laravelsocialiteapi",
+    "description": "Social Login for Laravel API",
+    "type": "project",
+    "require": {
+        "laravel/passport": "^6.0",
+        "laravel/socialite": "^3.0"
+    },
+    "license": "GPU",
+    "minimum-stability": "dev",
+    "authors": [
+        {
+            "name": "Sushant Pimple",
+            "email": "pimplesushant@gmail.com"
+        }
+    ]
+}
