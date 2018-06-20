@@ -13,7 +13,7 @@ class SocialServiceProvider extends ServiceProvider
      */
     public function boot()
     {
-        include __DIR__.'/routes.php';
+        include __DIR__.'/routes/web.php';
     }
 
     /**
