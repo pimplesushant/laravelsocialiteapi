@@ -48,18 +48,19 @@ class SocialController extends Controller
             $user = User::where("email",$social_user_details->getEmail())->first();
             if(!$user){
                 $user = new User;
-                switch($provider){
-                    case SocialAccount::SERVICE_FACEBOOK:
-                        $user->first_name = $social_user_details->user['first_name'];
-                        $user->last_name = $social_user_details->user['last_name'];
-                        break;
-                    case SocialAccount::SERVICE_GOOGLE:
-                        $user->first_name = $social_user_details->user['name']['givenName'];
-                        $user->last_name = $social_user_details->user['name']['familyName'];
-                        break;
-                    default :
-                }            
-                $user->email = $social_user_details->getEmail();
+//                switch($provider){
+//                     case SocialAccount::SERVICE_FACEBOOK:
+//                         $user->first_name = $social_user_details->user['first_name'];
+//                         $user->last_name = $social_user_details->user['last_name'];
+//                         break;
+//                     case SocialAccount::SERVICE_GOOGLE:
+//                         $user->first_name = $social_user_details->user['name']['givenName'];
+//                         $user->last_name = $social_user_details->user['name']['familyName'];
+//                         break;
+//                     default :
+//                 }            
+                $user->name = $social_user_details->getName();
+		$user->email = $social_user_details->getEmail();
                 $user->username = $social_user_details->getEmail();
                 $user->password = Hash::make('social');
                 $user->save();
