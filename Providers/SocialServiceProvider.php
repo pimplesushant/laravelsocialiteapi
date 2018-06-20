@@ -1,6 +1,6 @@
 <?php
 
-namespace Pimplesushant\Laravelsocialitapi;
+namespace Pimplesushant\Laravelsocialitapi\Providers;
 
 use Illuminate\Support\ServiceProvider;
 
