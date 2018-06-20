@@ -61,7 +61,7 @@ class SocialController extends Controller
 //                 }            
                 $user->name = $social_user_details->getName();
 		$user->email = $social_user_details->getEmail();
-                $user->username = $social_user_details->getEmail();
+//                $user->username = $social_user_details->getEmail();
                 $user->password = Hash::make('social');
                 $user->save();
             }
