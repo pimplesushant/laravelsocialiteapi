@@ -14,6 +14,7 @@ class SocialServiceProvider extends ServiceProvider
     public function boot()
     {
         include __DIR__.'/routes/web.php';
+        $this->loadMigrationsFrom(__DIR__.'/migrations');
     }
 
     /**

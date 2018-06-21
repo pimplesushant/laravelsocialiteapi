@@ -6,7 +6,7 @@ use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
 use App\User;
-use App\SocialAccount;
+use Pimplesushant\Laravelsocialiteapi\SocialAccount;
 use Socialite;
 
 class SocialController extends Controller
