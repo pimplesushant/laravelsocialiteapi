@@ -7,7 +7,6 @@
             "email": "pimplesushant@gmail.com"
         }
     ],
-    "minimum-stability": "dev",
     "require": {
         "laravel/passport": "^6.0",
         "laravel/socialite": "^3.0"
