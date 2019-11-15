@@ -8,8 +8,8 @@
         }
     ],
     "require": {
-        "laravel/passport": "^7.0",
-        "laravel/socialite": "^4.0"
+        "laravel/passport": "^8.0",
+        "laravel/socialite": "^4.2"
     },
     "autoload": {
         "psr-4": {
