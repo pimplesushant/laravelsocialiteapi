@@ -5,7 +5,7 @@ namespace Pimplesushant\Laravelsocialiteapi;
 use App\Http\Controllers\Controller;
 use Illuminate\Support\Facades\Hash;
 use Illuminate\Http\Request;
-use App\User;
+use App\Models\User;
 use Pimplesushant\Laravelsocialiteapi\SocialAccount;
 use Socialite;
 
